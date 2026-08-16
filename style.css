@@ -1,3 +1,5 @@
+
+
 /* ============================================================
    JORNAL DO TERCEIRÃO EDUCOOPE
    CSS principal
@@ -143,7 +145,7 @@ p {
 .site-header {
     position: relative;
     z-index: 10;
-
+    padding: 10px;
     background: var(--white);
 
     border-bottom: 1px solid var(--gray-100);
@@ -167,8 +169,7 @@ p {
 
 .logo-mark {
     width: 250px;
-    height: 46px;
-
+    height: 90px;
     display: grid;
     place-items: center;
 
@@ -182,6 +183,7 @@ p {
 }
 
 .logo-text {
+    
     display: flex;
     flex-direction: column;
 
@@ -903,9 +905,7 @@ p {
     position: relative;
 
     overflow: hidden;
-
     padding: 110px 0;
-
     background: var(--blue-900);
 }
 
@@ -1037,7 +1037,7 @@ p {
 
 .final-message {
     padding: 100px 0;
-
+    
     text-align: center;
 
     background:
@@ -1050,7 +1050,7 @@ p {
 
 .final-symbol {
     display: block;
-
+    
     margin-bottom: 18px;
 
     color: var(--green-600);
@@ -1088,6 +1088,26 @@ p {
     font-size: 1rem;
 }
 
+/* ============================================================
+   13.5 Imagem da turma
+   ============================================================ */
+
+.background-image-container2 {
+    padding: 100px 0;
+    height: 920px;
+    text-align: center;
+    background-image: url("/proj-terceirao-main/_F3A5136.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (max-width: 600px) {
+
+.background-image-container2{
+    height: auto;
+    
+}
+}
 
 /* ============================================================
    14. FOOTER
