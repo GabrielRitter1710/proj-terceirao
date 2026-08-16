@@ -17,7 +17,7 @@
      * no site da Educoope.
      *
      * Estes valores são aproximados e podem ser substituídos
-     * pelos HEX oficiais caso a escola forneça o manual da marca.
+     * pelos HEX oficiais caso a escola aorneça o manual da marca.
      */
 
     --blue-900: #063b63;
@@ -1096,7 +1096,7 @@ p {
     padding: 100px 0;
     height: 920px;
     text-align: center;
-    background-image: url("_F3A5136.jpg");
+    background-image: url("imgs/fototurma.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
